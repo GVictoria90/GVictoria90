@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <p>
+      Como usar:
+      <ol>
+      <li>Ingrese nombre del alumno y sus tres notas.</li>
+      <li>Se volverá a pedir los datos del siguiente alumno.</li>
+      <li>Para frenar en el nombre ingrese una cadena vacía.</li>
+      </ol>
+    </p>
+
+    <p>
+      Recuerde:
+      <li>La parte práctica vale el 10%.</li>
+      <li>La parte de problemas vale el 50%.</li>
+      <li>La parte teórica vale el 40%.</li>
+    </p>
+
+    <div class="col100 nameWrapper">
+        <label for="nombre-alumno">Nombre alumno</label>
+        <input name="nombre-alumno" type="text" id="nombre-alumno"/>
+    </div>
+    <div class="inputWrapper">
+
+      <div class="col33">
+        <label for="nota-practica">Nota practica</label>
+        <input name="nota-practica" type="number" id="nota-practica"/>
+      </div>
+      <div class="col3">
+        <label for="nota-problemas">Nota problemas</label>
+        <input name="nota-problemas" type="number" id="nota-problemas"/>
+      </div>
+      <div class="col3">
+        <label for="nota-teorica">Nota teorica</label>
+        <input name="nota-teorica" type="number" id="nota-teorica"/>
+      </div>
+    </div>
+
+    <button id="btnEnv">Empezar</button>
+
+    <table id="promedios"></table>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>

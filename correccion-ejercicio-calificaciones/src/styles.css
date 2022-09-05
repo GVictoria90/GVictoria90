@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.col30 {
+  width: 33%;
+  margin: 5px;
+}
+
+.col100 {
+  width: 100%;
+}
+
+.inputWrapper,
+.nameWrapper {
+  display: flex;
+  justify-content: center;
+}
