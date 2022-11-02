@@ -1,0 +1,27 @@
+.articulo {
+  text-align: center;
+}
+
+.titulo {
+  background-color: burlywood;
+}
+
+.subtitulo {
+  text-align: left;
+}
+
+.imagen-principal {
+  image-rendering: center;
+}
+
+.primer-parrafo-noticia {
+  text-align: justify;
+}
+
+.link-noticia {
+  background-color: darkkhaki;
+}
+
+body {
+  background-color: antiquewhite;
+}
