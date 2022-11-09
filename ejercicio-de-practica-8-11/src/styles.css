@@ -1,0 +1,127 @@
+body,
+div {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p {
+  font-weight: bold;
+  margin: 0px;
+  padding: 6px 0;
+}
+
+p.p-encabezado {
+  width: 60%;
+}
+
+p:not(p.p-encabezado, p.p-logo, p.p-menu1, p.p-menu2) {
+  color: white;
+  padding: 15px;
+}
+
+p.p-logo {
+  margin-left: 10px;
+}
+
+p.p-menu1 {
+  margin-left: 30px;
+}
+
+p.p-menu2 {
+  margin-left: 5px;
+}
+
+div:not(div.logo, div.menu1, div.menu2, div.elemento) {
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+div.encabezado {
+  background-color: #d9dcdb;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+div.logo,
+div.menu1,
+div.menu2 {
+  margin: 3px 0;
+}
+
+div.logo {
+  background-color: #003466;
+  width: 16%;
+  margin-right: 14%;
+}
+
+div.menu1 {
+  background-color: #009934;
+  width: 40%;
+}
+
+div.menu2 {
+  background-color: #640002;
+  width: 70%;
+}
+
+/*  */
+
+div.height-250 {
+  height: 250px;
+}
+
+div.izquierda,
+div.centro,
+div.derecha {
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+div.izquierda {
+  background-color: #333333;
+}
+
+div.centro {
+  background-color: #009999;
+}
+
+div.derecha {
+  background-color: #ff9934;
+}
+
+div.izquierda-2,
+div.derecha-2 {
+  margin-bottom: 10px;
+}
+
+div.izquierda-2 {
+  width: 64%;
+  background-color: #013300;
+}
+
+div.derecha-2 {
+  width: 30%;
+  background-color: #993400;
+}
+
+div.pie {
+  width: 100%;
+  align-content: flex-start;
+  background-color: #00ccff;
+  padding-right: 20px;
+}
+
+p.p-pie {
+  width: 75%;
+}
+
+div.elemento {
+  width: 25%;
+  height: 50px;
+  background-color: #003863;
+  margin-left: auto;
+}
